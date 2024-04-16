@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 test_font = pygame.font.Font(None, 60)
 
 background_surface = pygame.image.load('assets/graphics/background.jpg')
-text_surface = test_font.render("Leprachaun Quest", False, "Dark Green")
+text_surface = test_font.render("Leprechaun Quest", False, "Dark Green")
 
 #Fox animation variables
 fox_surface = pygame.image.load('assets/graphics/fox.gif').convert_alpha()
